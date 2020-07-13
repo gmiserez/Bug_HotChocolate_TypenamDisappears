@@ -11,20 +11,20 @@ Sample project to demonstrate the following Bug:
 
 ```
 {
-alphaWithFragment: alpha {
-\_\_typename
-...f @include(if: true)
-}
+  alphaWithFragment: alpha {
+    __typename
+    ...f @include(if: true)
+  }
 
-alphaWithoutFragment: alpha {
-\_\_typename
-...f @include(if: false)
-}
+  alphaWithoutFragment: alpha {
+    __typename
+    ...f @include(if: false)
+  }
 }
 
 fragment f on Abc {
-foo
-\_\_typename
+  foo
+  __typename
 }
 ```
 
