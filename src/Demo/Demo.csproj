@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="11.0.0-preview.138 " />
+    <PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="11.0.0-preview.138 " />
+    <PackageReference Include="HotChocolate.AspNetCore.Playground" Version="11.0.0-preview.138 " />
+    <PackageReference Include="HotChocolate.Subscriptions.InMemory" Version="11.0.0-preview.138 " />
+    <PackageReference Include="HotChocolate.Types.Filters" Version="11.0.0-preview.138 " />
+  </ItemGroup>
+  
+</Project>
